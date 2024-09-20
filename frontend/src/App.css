@@ -1,0 +1,29 @@
+/* App Styles */
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form, .asset-details, .asset-list {
+    width: 90%;
+  }
+}

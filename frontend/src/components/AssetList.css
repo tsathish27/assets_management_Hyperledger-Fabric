@@ -1,0 +1,27 @@
+/* AssetList Styles */
+.asset-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .asset-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .asset-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .asset-list li:last-child {
+    border-bottom: none;
+  }
+  
